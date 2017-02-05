@@ -787,7 +787,7 @@ header .inner #cart {
 	margin-top: 72px;
 	background: url(../images/bg_cart.png) no-repeat 30% -86px, -webkit-gradient(linear, left top, left bottom, from(#d9d9d9), to(#FFF));	/*カート画像とグラデーション*/
 	background: url(../images/bg_cart.png) no-repeat 30% -86px, -webkit-linear-gradient(#d9d9d9, #FFF 20%);	/*同上*/
-	background: url(../images/bg_cart.png) no-repeat 30% -86px, linear-gradient(#d9d9d9, #FFF 20%);	
+	background: url(../images/bg_cart.png) no-repeat 30% -86px, linear-gradient(#d9d9d9, #FFF 20%);
 	text-align: center;
 	border-bottom: 1px solid #ccc;	/*下側の線の幅、線種、色*/
 }
@@ -940,4 +940,39 @@ body.s-n #side {
 	border-radius: 0px 0px 6px 6px;
 }
 
+}
+
+/*カレンダー用テーブル
+---------------------------------------------------------------------------*/
+/*テーブル全体の設定*/
+.cal {
+	border: 1px solid #a2a2a2;	/*枠線の幅、線種、色*/
+	background: #FFF;			/*テーブル内の背景色*/
+	font-size: 11px;			/*文字サイズ*/
+	margin-right: auto;
+	margin-left: auto;
+}
+.cal td, .cal th{
+	border: 1px solid #a2a2a2;	/*枠線の幅、線種、色*/
+	line-height: 1;				/*行間*/
+	text-align: center;			/*文字をセンタリング*/
+	padding: 5px;				/*ボックス内の余白*/
+}
+/*テーブル内のth(曜日)設定*/
+.cal th{
+	background: #ebebeb;	/*背景色*/
+}
+/*休日の設定*/
+.cal .off {
+	background: #ffced8;	/*背景色*/
+	color: #666;			/*文字色*/
+}
+/*日曜日の設定*/
+.cal .sun {
+	color: #FF5C7F;			/*文字色*/
+}
+/*管理ページから入力した場合の設定*/
+.cal .on {
+	background: #ced8ff;	/*背景色*/
+	color: #666;			/*文字色*/
 }
