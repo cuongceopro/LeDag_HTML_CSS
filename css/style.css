@@ -128,7 +128,7 @@ nav#menubar ul {
 /*メニュー１個ごとの設定*/
 nav#menubar ul li {
 	float: left;
-	width: 165px;	/*メニュー幅*/
+	width: 198px;	/*メニュー幅*/
 	border-right: 1px solid #ccc;	/*メニューの右側の線の幅、線種、色*/
 	text-align: center;	/*文字を中央に揃える*/
 }
